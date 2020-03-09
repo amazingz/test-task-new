@@ -12,14 +12,17 @@ body {
 
 .container {
   max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
   margin: 0 auto;
-  background: rgb(193, 227, 243);
-  opacity: 3.5;
+  background: rgba(229, 235, 238, 0.918);
+  opacity: .9;
   
 }
 
 header {
-  height: 90px;
+  height: 1190px;
   background: #7B68EE;
   opacity: .5;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
@@ -50,24 +53,29 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background: #7B68EE;
-  opacity: .5;
+  background: rgba(229, 235, 238, 0.918);
+  opacity: .9;
 }
 form{
   display: flex;
   justify-content: right;
   align-items: right;
-  background: #7B68EE;
-  opacity: .5;
+  background: rgba(229, 235, 238, 0.918);
+  opacity: .9;
+}
+
+.form-group {
+  justify-items: center;
+  
+ background:  rgba(229, 235, 238, 0.918);
+  opacity: 1.5;
 }
 
 .links ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  
-  
+  justify-content: space-around;
 }
 
 .links ul li {
@@ -90,6 +98,8 @@ form{
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
+  background: rgb(37, 14, 168);
+  opacity: .5;
   
 }
 
