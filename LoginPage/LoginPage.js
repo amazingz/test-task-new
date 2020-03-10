@@ -50,11 +50,14 @@ class LoginPage extends React.Component {
     render() {
         const { username, password, submitted, loading, error } = this.state;
         return (
-            <div className="left">
+          
+            <div className="container">
+            
                 <div className="alert alert-info">
                     Username: test<br />
                     Password: test
                 </div>
+                
                 <form name="form" onSubmit={this.handleSubmit}>
                     <div className={'form-group' + (submitted && !username ? ' has-error' : '')}>
                         
